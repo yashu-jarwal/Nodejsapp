@@ -1,8 +1,8 @@
 // otp.js
 const twilio = require('twilio');
 
-const accountSid = 'ACa0ca4526e0fa5360942806d8e1d17ee4';
-const authToken = '85d91eb7f98bea5ea15f30982c87a4f5';
+const accountSid = '';
+const authToken = '';
 const client = new twilio(accountSid, authToken);
 
 let otpStore = {}; // temporary in-memory storage
